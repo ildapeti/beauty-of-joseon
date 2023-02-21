@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="redMask.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js">
+    </script>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css'>
+    <title>Red Bean Refreshing Pore Mask</title>
+    <link rel='shortcut icon' href="icon.webp" type="image/png" />
+</head>
+
+<body class="body">
+    <nav class="navbar navbar-expand-sm fixed-top">
+        <div class="container-fluid fw-normal">
+            <a href="http://127.0.0.1:5500/home/home.html" class="home">
+                <img src="https://cdn.shopify.com/s/files/1/0558/4135/7989/files/1_e57b2948-3925-412d-a818-008f4df16a53_100x@2x.png?v=1661518997"
+                    class="logo">
+            </a>
+            <ul class="navbar-links">
+                <div class="dropdown mt-3">
+                    <a class="dropbtn">SKINCARE
+                        <i class="fas fa-caret-down"></i>
+                    </a>
+                    <div class="dropdown-prod">
+                        <h2 class="skincare pt-2 ps-2.5 small">ALL SKINCARE</h2>
+                        <div class="dropdown-prod ps-2 pb-2">
+                            <a href="http://127.0.0.1:5500/cleanser/cleanser.html">
+                                Cleanser
+                            </a>
+                            <a href="http://127.0.0.1:5500/exfoliator/exfoliator.html">
+                                Exfoliator
+                            </a>
+                            <a href="http://127.0.0.1:5500/toner/toner.html">
+                                Toner & Essence
+                            </a>
+                            <a href="http://127.0.0.1:5500/serum/serum.html">
+                                Serum
+                            </a>
+                            <a href="http://127.0.0.1:5500/moisturizer/moisturizer.html">
+                                Moisturizer
+                            </a>
+                            <a href="http://127.0.0.1:5500/sunscreens/sunscreen.html">
+                                Sunscreens
+                            </a>
+                            <a href="http://127.0.0.1:5500/mask/mask.html">
+                                Mask
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </ul>
+            <a href="http://127.0.0.1:5500/all-products/all-prod.html" class="navbar-brand">ALL</a>
+            <a href="http://127.0.0.1:5500/sets/sets.html" class="navbar-brand">SETS</a>
+            <a href="http://127.0.0.1:5500/calendar/calendar.html" class="navbar-brand">HAPPINESS CALENDAR</a>
+            <a href="http://127.0.0.1:5500/contact/contact.html?#" class="navbar-brand">LOG IN</a>
+        </div>
+    </nav>
+    <div class="row">
+        <div class="col-sm-8">
+            <img src="https://cdn.shopify.com/s/files/1/0558/4135/7989/products/0O8A9851_1000x.jpg?v=1667177845"
+                class="redMask">
+            <img src="https://cdn.shopify.com/s/files/1/0558/4135/7989/products/0O8A9978_1000x.jpg?v=1667177845"
+                class="redMask1">
+            <img src="https://cdn.shopify.com/s/files/1/0558/4135/7989/products/4_1000x.jpg?v=1667177845"
+                class="redMask2">
+            <img src="https://cdn.shopify.com/s/files/1/0558/4135/7989/products/3_59464ef6-d014-4c29-bd72-d770ba55a145_1000x.jpg?v=1667177845"
+                class="redMask3">
+            <img src="https://cdn.shopify.com/s/files/1/0558/4135/7989/products/5_1000x.jpg?v=1667177845"
+                class="redMask4">
+        </div>
+        <div class="col-sm-4">
+            <h1 class="name">RED BEAN REFRESHING PORE<br>MASK</h1>
+            <p class="price">140ml (4.73 fl.oz)　/　 $20.00</p>
+            <p class="quantity">Quantity:</p>
+            <div class="cart-increase">
+                <input type="button" onclick="decrementValue()" value="-" class="minus"/>
+                <input type="text" name="quantity" value="1" maxlength="2" max="10" size="1" id="number" class="quantity-num"/>
+                <input type="button" onclick="incrementValue()" value="+" class="plus"/>
+            </div>
+            <button class="cart">ADD TO CART &#8594</button>
+            <button class="cart2">BUY IT NOW &#8594</button>
+            <div class="ingredient">
+                <div class="first-div">
+                    <img src="https://d1pztvg1hh2s9f.cloudfront.net/3osgzlysnr9tbka56uvjld8b2kbq" class="vegan">
+                    <p class="first-desc">Vegan</p>
+                </div>
+                <div class="second-div">
+                    <img src="https://d1pztvg1hh2s9f.cloudfront.net/ud83v5s2qp1tb5bwl1u2yzqkggzz" class="cruelty-free">
+                    <p class="second-desc">Cruelty-Free</p>
+                </div>
+                <div class="third-div">
+                    <img src="https://d1pztvg1hh2s9f.cloudfront.net/cv8bjeaxwvg4gt4f8cm79yw6bdni" class="fragrance">
+                    <p class="third-desc">Fragrance &<br>Essential Oil-<br>Free</p>
+                </div>
+                <div class="fourth-div">
+                    <img src="https://d1pztvg1hh2s9f.cloudfront.net/kjsh8yk0quo23pfbvov4p0p1mfoy" class="bean">
+                    <p class="fourth-desc">Key Ingredients</p>
+                    <p class="fifth-desc">Red Bean</p>
+                </div>
+                <div class="description">
+                    <p class="first-title">What it is</p>
+                    <p class="first-description">Our pores are the channels through which sebum exits our skin.
+                        Excess sebum and dead skin cells accumulate in these channels, causing the pores to enlarge.
+                        For pore care, you need to remove dead skin cells in the pores, wash away the accumulated sebum
+                        and waste, and then lower the skin's temperature.<br><br>
+
+                        For pore and exfoliation care, which is the beginning of skin care, we found the ingredients
+                        from the Earth,
+                        home to our beginning. Red beans, which have been loved throughout our history,
+                        and kaolin were selected as the main<br>ingredients.<br>
+                        Kaolin absorbs sebum, and red bean extract and red bean powder help with
+                        exfoliating and clear skin texture.</p>
+                </div>
+                <div class="description2">
+                    <p class="sec-title">Moist Clay Texture</p>
+                    <p class="sec-description">The moisturizing soft mud formulation helps to absorb sebum and
+                        remove wastes without dryness or tightness. At the same time, it
+                        provides a refreshing cooling feeling.</p>
+                </div>
+                <div class="description3">
+                    <p class="third-title">Key ingredients</p>
+                    <p class="fourth-title">Haenam red bean extract 30%</p>
+                    <p class="third-description">
+                        Red bean has been an important herbal ingredient throughout Korean history
+                        as well as a beloved skin care ingredient. Women of Joseon, who emphasized skin care
+                        that creates clear and clean skin, used mung beans and red beans ground together to wash
+                        their faces. The rich saponin in red beans helps with the adsorption of sebum and acts
+                        as a natural exfoliant.
+                    </p>
+                </div>
+                <div class="ing-list">
+                    <p class="fifth-title">Full Ingredients
+                    <p>
+                    <p class="fullIngredient">Phaseolus angularis seed extract, glycerin, kaolin, caprylic/capric
+                        triglyceride,
+                        1,2-hexanediol, phaseolus angularis seed powder, hectorite, cetyl alcohol,
+                        glyceryl stearate se, sorbitan olivate, cetearyl olivate, ultramarines,
+                        pyrus communis (pear) fruit extract, ethylhexylglycerin,
+                        sodium acrylate/sodium acryloyldimethyl taurate copolymer,
+                        hedera helix (ivy) leaf/stem extract, water, polyisobutene, pyrus malus (apple) leaf extract,
+                        fragaria chiloensis (strawberry) fruit extract, ci 77491, caprylyl/capryl glucoside,
+                        sorbitan oleate, triethoxycaprylylsilane</p>
+                    </p>
+                </div>
+                <div class="using">
+                    <p class="sixth-title">How To Use
+                    <p>
+                    <p class="how-to-use">After cleansing, apply evenly on a dry face.<br>
+                        After 5-10 minutes, gently massage with lukewarm water and rinse off.</p>
+                    </p>
+                </div>
+                <div class="question">
+                    <p class="seventh-title">FAQ
+                    <p>
+                    <p class="answer">Q/ Which type of skin is it suitable for?<br>
+                        It is recommended for those with excessive sebum secretion and those who are concerned about
+                        large pores.<br><br>
+
+                        Q/ How thick should I apply it?<br>
+                        A/ It is recommended to apply it evenly until the skin does not show through.<br><br>
+
+                        Q/ What is the black powder I can see in the product?<br>
+                        It is 100% red bean powder.<br><br>
+
+                        Q/ Please recommend the best match for it.<br>
+                        A/ You can use 'Red Bean Pore Mask' for removing sebum and dead skin cells
+                        and use 'Red Bean Moisture Water Gel' to replenish moisture and create synergy between the
+                        pores and skin texture care.</p>
+                    </p>
+                </div>
+                <div class="links">
+                    <a href="#" class="shipping">Shipping</a>
+                    <a href="#" class="return">Return&Refund</a>
+                    <a href="#" class="pay">Payment</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <span class="reviews pt-5">Reviews</span>
+    <span class="fa fa-star checked rvw"></span>
+    <span class="fa fa-star checked rvw"></span>
+    <span class="fa fa-star checked rvw"></span>
+    <span class="fa fa-star checked rvw"></span>
+    <span class="fa fa-star checked rvw"></span>
+    <p class="rating">Based on 14 reviews.</p>
+    <div class="row2">
+        <div class="side1">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+        </div>
+        <div class="middle">
+            <div class="bar-container">
+                <div class="bar-5"></div>
+            </div>
+        </div>
+        <div class="side right">
+            <div>86%　(12)</div>
+        </div>
+        <div class="side2">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+        </div>
+        <div class="middle">
+            <div class="bar-container">
+                <div class="bar-4"></div>
+            </div>
+        </div>
+        <div class="side right">
+            <div>7% 　 (1)</div>
+        </div>
+        <div class="side3">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+        </div>
+        <div class="middle">
+            <div class="bar-container">
+                <div class="bar-3"></div>
+            </div>
+        </div>
+        <div class="side right">
+            <div>7% 　 (1)</div>
+        </div>
+        <div class="side4">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+        </div>
+        <div class="middle">
+            <div class="bar-container">
+                <div class="bar-2"></div>
+            </div>
+        </div>
+        <div class="side right">
+            <div>0% 　 (0)</div>
+        </div>
+        <div class="side5">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+        </div>
+        <div class="middle">
+            <div class="bar-container">
+                <div class="bar-1"></div>
+            </div>
+        </div>
+        <div class="side right">
+            <div>0% 　 (0)</div>
+        </div>
+    </div>
+    <button class="write">Write a review</button>
+    <div class="testimonial">
+        <img src="https://randomuser.me/api/portraits/women/90.jpg" alt="Avatar" style="width:70px">
+        <p><span>Charline Helene</span>24/10/2022</p>
+        <div class="first-review">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+        </div>
+        <p class="review-desc">
+            I am very impressed with this product.
+             After using it, my skin feels fresh and smooth. I highly recommend it!</p>
+      </div>
+      
+      <div class="testimonial1">
+        <img src="https://xsgames.co/randomusers/assets/avatars/female/44.jpg" alt="Avatar" style="width:70px">
+        <p><span>Norma Weber</span>09/10/2022</p>
+        <div class="first-review">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+        </div>
+        <b>The best</b>
+        <p class="review-desc">I do have problems with my skin. I have scars from acne,
+             big pores and dry skin. And I felt in love with this mask!!!!
+             It really helped my skin and I’m finally<br>shinning again.</p>
+      </div>
+      <div class="testimonial1">
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAM1BMVEXk5ueutLeqsbTn6eqpr7PJzc/j5ebf4eLZ3N2wtrnBxsjN0NLGysy6v8HT1tissra8wMNxTKO9AAAFDklEQVR4nO2d3XqDIAxAlfivoO//tEOZWzvbVTEpic252W3PF0gAIcsyRVEURVEURVEURVEURVEURVEURVEURVEURVEURflgAFL/AirAqzXO9R7XNBVcy9TbuMHmxjN6lr92cNVVLKEurVfK/zCORVvW8iUBnC02dj+Wpu0z0Y6QlaN5phcwZqjkOkK5HZyPAjkIjSO4fIdfcOwFKkJlX4zPu7Ha1tIcwR3wWxyFhRG6g4Je0YpSPDJCV8a2Sv2zd1O1x/2WMDZCwljH+clRrHfWCLGK8REMiql//2si5+DKWKcWeAGcFMzzNrXC/0TUwQ2s6+LhlcwjTMlYsUIQzPOCb7YBiyHopyLXIEKPEkI/TgeuiidK/R9FniUDOjRDpvm0RhqjMyyXNjDhCfIMYl1gGjIMIuYsnGEYRMRZOMMunaLVwpWRW008v6fYKDIzxCwVAeNSO90BJW6emelYBRF/kHpYGVaoxTDAaxOFsfP9y8hpJ4xd7gOcij7JNGQ1EYFgkPJa1jQEiYZXRaRINKxSDUW9n+FT82lSKadkiru9/4XPqSLWOekGPoY05TAvLm9orm+YWuwHoBHkZKijNBJGmeb61eL6Ff/6q7bLr7yvv3vKGhpDRjvgjGaPz+gUg6YgcvpyAR2FIZ9U6nEEyZRTovmEU32KichpGn7C17XrfyH9gK/c0CMP05HZIM2uf9sEveizKveBy9/6Qt7o89ne33D525cfcIMW6ab+TMEukQbQbu+xu7X3A9bChmWaCeAkG17bpntwXgWxHaMzGPmUaR5dQZiKqRVeUZ3047fi3nAu28h4CHxCsZAgmEH8Y27jJAhm8c+5RQzRQNVGhVFSfxOYIjp/pP7RxzjevYXVGf4eLt+BJ1vCuLuLkrgABgCGXZ2wik5uty+oBvNirI6mkzhAf4Gsb58Hcm67Jzd+KwD10BYPLL3e0MjvKrgAULnOfveF/O4N2Xb9BZom3gJes3F9X5Zze8/6Yt09b4CrqsEjUv8oFBaR2rl+6CZr2xVrp24o/WitBKuGrrpl1+bFkmK2qXTON4VpbdfLa7o7y/WdLxG7lm2Lqh2clOwTegbvc/vj2U78CwhA87Bn8G5Nk3eOb0Nsr9flz3sG78UUtue4kpv1xvjg3TMay62BMlTlP+vrOMnJsRmt/ze0jsfkPPYdAH57hK+34PeOyc8XIXu5xT2HsUkdZz+adwg8HGFfQ3K5jtDvbUiO4Di9/ywHGrL88pDizZ++oTp+an+SMX/ndymUCwmHMdO7yuOx83pUx/eEMU0AvxWndwgidAqOZ8ypCwdEfvvEo6D9HwpA8wzvmOJEqAg9ySu8g4x0Hb9hSB/BANEKJ+LbPBU0lzbAJs4xt1AoshKkUGQmiH8/jJ0gdhTTLmSegHlPE0oOdXALnqDjKYh3px//fSgSWG8UqfrrIICzYYSJXRr9BSPbpNzw7gBjKjKOYI7ReIGqQRIap5+5MdjyvuDkExvGeXSlONWZAP3/AZBwJohU7QJRGU+cTVH18ELmRPNBmibW6MT/k1b0XhdkRBvyT6SB6EYv/GvhSmRNpGngRULsAlxMCGNXp7w3FfdEbTEEDdLI9TdIKRUzUesa3I461ER8cpNT7gMRhpKmYVS9ELOgCUQsa4SsulciKiLbY+AnHD8cpuhISsnxpamI84sbDq9qYJgf8wiiOBrC7Ml7M7ZECCqKoiiKoiiKoiiKoijv5AvJxlZRyNWWLwAAAABJRU5ErkJggg==" alt="Avatar" style="width:70px">
+        <p><span>Brooke Saunders</span>01/09/2022</p>
+        <div class="first-review">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+        </div>
+        <p class="review-desc">Texture is light. Not very greasy. 
+            Absorbs quickly into the skin. Skin feels soft after using.</p>
+      </div>
+      <h2 class="suggestion">YOU MAY ALSO LIKE</h2>
+      <div class="serum1">
+        <img src="https://cdn.shopify.com/s/files/1/0558/4135/7989/products/0O8A9419_a2a99dd5-86eb-4ed6-9d07-e0c598646905_1000x.jpg?v=1667177860" class="first1">
+        <div class="overlay">  
+        <img src="https://cdn.shopify.com/s/files/1/0558/4135/7989/products/2_1f458569-7ede-4511-8457-8a0b2d05bc6a_1000x.jpg?v=1667177860" class="second1">
+        <div class="prod-price">
+          <div class="name0">Red Bean Water Gel</div>
+          <div class="price0"> $18.00</div>
+        </div>
+      </div>
+      </div> 
+      <div class="toner2">
+        <img src="http://cdn.shopify.com/s/files/1/0558/4135/7989/products/0O8A0421_3f52ec2e-c404-46ae-a2f9-8888fd2c41da.jpg?v=1661730638" class="first2">
+        <div class="overlay2">  
+        <img src="https://cdn.shopify.com/s/files/1/0558/4135/7989/products/0O8A0761_1_ca0c3738-4d95-49a1-b3e7-98842807d8cf_1000x.jpg?v=1661730754" class="second2">
+        <div class="prod-price2">
+          <div class="name2">Green Plum Refreshing<br>Toner : AHA + BHA</div>
+          <div class="price2"> $18.00</div>
+        </div>
+      </div>
+      </div>  
+      <div class="serum3">
+        <img src="https://cdn.shopify.com/s/files/1/0558/4135/7989/products/0O8A9524_1000x.jpg?v=1653868379" class="first3">
+        <div class="overlay3">  
+        <img src="https://cdn.shopify.com/s/files/1/0558/4135/7989/products/0O8A9731_1000x.jpg?v=1653868383" class="second3">
+        <div class="prod-price3">
+          <div class="name3"> Porcelain Gwalsa </div>
+          <div class="price3"> $17.00</div>
+        </div>
+      </div>
+      </div> 
+      <div class="cleanser4">
+        <img src="http://cdn.shopify.com/s/files/1/0558/4135/7989/products/0O8A9381.jpg?v=1653271867" class="first4">
+        <div class="overlay4">  
+        <img src="https://cdn.shopify.com/s/files/1/0558/4135/7989/products/0O8A9565_1000x.jpg?v=1653271867" class="second4">
+        <div class="prod-price4">
+          <div class="name4">Green Plum Refreshing Cleanser</div>
+          <div class="price4"> $13.00</div>
+        </div>
+      </div>
+      </div>
+    <div class="footer">
+      <div class="container-fluid">     
+          <div class="row">          
+            <div class="first col-sm-4 ps-3 pt-4">
+              <h2 class="comp-name">BEAUTY OF JOSEON</h2>
+            </div>             
+              <div class="second col-sm-4">
+                  <div class="single-footer">
+                      <p class="loc">GOODAI GLOBAL INC.<br>
+                        JUHYCK CHEUN<br><br>
+                      Suite #502, 5, Digital-ro 26-gil, Guro-gu, Seoul,<br> Republic of Korea<br><br>
+                      cs@beautyofjoseon.com</p>
+                  </div>
+              </div>
+              <div class="third col-sm-4">
+                  <div class="single-footer single-footer-address">
+                      <ul>
+                          <li><a href="#">Contact</a></li>
+                          <li><a href="#">Terms and Conditions</a></li>
+                          <li><a href="#">Shipping</a></li>
+                          <li><a href="#">Return & Refund</a></li>
+                          <li><a href="#">Payment</a></li>
+                          <li><a href="#">Privacy Policy</a></li>
+                          <li><a href="#">FAQ</a></li>
+                          <li><a href="#">Terms of Service</a></li>
+                          <li><a href="#">Refund Policy</a></li>
+                      </ul>
+                  </div>
+              </div>    
+          </div>
+       </div>   
+  </div>
+  <p class="credit">© 2022, Beauty of Joseon.</p>
+  <script src="redMask.js"></script>
+</body>
+</html>

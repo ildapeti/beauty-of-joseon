@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="redGel.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js">
+    </script>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css'>
+    <title>Red Bean Water Gel</title>
+    <link rel='shortcut icon' href="icon.webp" type="image/png" />
+</head>
+
+<body class="body">
+    <nav class="navbar navbar-expand-sm fixed-top">
+        <div class="container-fluid fw-normal">
+            <a href="http://127.0.0.1:5500/home/home.html" class="home">
+                <img src="https://cdn.shopify.com/s/files/1/0558/4135/7989/files/1_e57b2948-3925-412d-a818-008f4df16a53_100x@2x.png?v=1661518997"
+                    class="logo">
+            </a>
+            <ul class="navbar-links">
+                <div class="dropdown mt-3">
+                    <a class="dropbtn">SKINCARE
+                        <i class="fas fa-caret-down"></i>
+                    </a>
+                    <div class="dropdown-prod">
+                        <h2 class="skincare pt-2 ps-2.5 small">ALL SKINCARE</h2>
+                        <div class="dropdown-prod ps-2 pb-2">
+                            <a href="http://127.0.0.1:5500/cleanser/cleanser.html">
+                                Cleanser
+                            </a>
+                            <a href="http://127.0.0.1:5500/exfoliator/exfoliator.html">
+                                Exfoliator
+                            </a>
+                            <a href="http://127.0.0.1:5500/toner/toner.html">
+                                Toner & Essence
+                            </a>
+                            <a href="http://127.0.0.1:5500/serum/serum.html">
+                                Serum
+                            </a>
+                            <a href="http://127.0.0.1:5500/moisturizer/moisturizer.html">
+                                Moisturizer
+                            </a>
+                            <a href="http://127.0.0.1:5500/sunscreens/sunscreen.html">
+                                Sunscreens
+                            </a>
+                            <a href="http://127.0.0.1:5500/mask/mask.html">
+                                Mask
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </ul>
+            <a href="http://127.0.0.1:5500/all-products/all-prod.html" class="navbar-brand">ALL</a>
+            <a href="http://127.0.0.1:5500/sets/sets.html" class="navbar-brand">SETS</a>
+            <a href="http://127.0.0.1:5500/calendar/calendar.html" class="navbar-brand">HAPPINESS CALENDAR</a>
+            <a href="http://127.0.0.1:5500/contact/contact.html?#" class="navbar-brand">LOG IN</a>
+        </div>
+    </nav>
+    <div class="row">
+        <div class="col-sm-8">
+            <img src="https://cdn.shopify.com/s/files/1/0558/4135/7989/products/0O8A9419_a2a99dd5-86eb-4ed6-9d07-e0c598646905_900x.jpg?v=1667177860"
+                class="redMask">
+            <img src="https://cdn.shopify.com/s/files/1/0558/4135/7989/products/2_1f458569-7ede-4511-8457-8a0b2d05bc6a_1000x.jpg?v=1667177860"
+                class="redMask1">
+            <img src="https://cdn.shopify.com/s/files/1/0558/4135/7989/products/5_b9a719bb-6a31-44b0-947f-6a5c166b6bb9_1000x.jpg?v=1667177860"
+                class="redMask2">
+            <img src="https://cdn.shopify.com/s/files/1/0558/4135/7989/products/6_1000x.jpg?v=1667177860"
+                class="redMask3">
+            <img src="https://cdn.shopify.com/s/files/1/0558/4135/7989/products/3_f1b9a820-ec65-4f5b-8fa3-b0230978cc24_1000x.jpg?v=1667177860"
+                class="redMask4">
+        </div>
+        <div class="col-sm-4">
+            <h1 class="name">RED BEAN WATER GEL</h1>
+            <p class="price">100ml (3.38 fl.oz)　/　 $18.00</p>
+            <p class="quantity">Quantity:</p>
+            <div class="cart-increase">
+                <input type="button" onclick="decrementValue()" value="-" class="minus"/>
+                <input type="text" name="quantity" value="1" maxlength="2" max="10" size="1" id="number" class="quantity-num"/>
+                <input type="button" onclick="incrementValue()" value="+" class="plus"/>
+            </div>
+            <button class="cart">ADD TO CART &#8594</button>
+            <button class="cart2">BUY IT NOW &#8594</button>
+            <div class="ingredient">
+                <div class="first-div">
+                    <img src="https://d1pztvg1hh2s9f.cloudfront.net/3osgzlysnr9tbka56uvjld8b2kbq" class="vegan">
+                    <p class="first-desc">Vegan</p>
+                </div>
+                <div class="second-div">
+                    <img src="https://d1pztvg1hh2s9f.cloudfront.net/ud83v5s2qp1tb5bwl1u2yzqkggzz" class="cruelty-free">
+                    <p class="second-desc">Cruelty-Free</p>
+                </div>
+                <div class="third-div">
+                    <img src="https://d1pztvg1hh2s9f.cloudfront.net/cv8bjeaxwvg4gt4f8cm79yw6bdni" class="fragrance">
+                    <p class="third-desc">Fragrance &<br>Essential Oil-<br>Free</p>
+                </div>
+                <div class="fourth-div">
+                    <img src="https://d1pztvg1hh2s9f.cloudfront.net/kjsh8yk0quo23pfbvov4p0p1mfoy" class="bean">
+                    <p class="fourth-desc">Key Ingredients</p>
+                    <p class="fifth-desc">Red Bean</p>
+                </div>
+                <div class="description">
+                    <p class="first-title">What it is</p>
+                    <p class="first-description">As our skin ages, the amount of moisture and oil in the skin decreases, 
+                        and when the skin becomes dry, wrinkles form more easily. In addition, when skin moisture is insufficient, our 
+                        skin secretes more sebum than usual to protect itself. As a result, in a state where moisture is inadequate, 
+                        the amount of oil becomes excessive, increasing the chance of inflammatory skin problems. Therefore, 
+                        maintaining the oil-water balance of the skin itself is important for healthy skin.<br><br>
+
+                        Our brand's first cream, 'Dynasty Cream', was created to provide rich moisture to the skin and help 
+                        maintain an appropriate oil-water balance. We have received feedback from many wonderful customers 
+                        over the past 5 years, and have come to the conclusion that we need to add a moisturizing cream line 
+                        with new ingredients and a new formula.<br><br>
+                        
+                        For the oily-skin customers, we have developed 'Red Bean Water Gel.<br>
+                        It has a light gel texture and is full of moisture while minimizing the oily feeling. Red bean extract and 3 types of peptides, key ingredients in this cream, work in concert to replenish moisture and help skin health.
+                </div>
+                <div class="description2">
+                    <p class="sec-title">Light moisture-gel formula</p>
+                    <p class="sec-description">'Dynasty Cream' is ideal for dry/combination skin, 
+                        and 'Red Bean Water Gel' was developed for oily skin with active sebum secretion.</p>
+                    <p class="sec-title2">Powerful moisture delivery and pore care</p>
+                    <p class="sec-description2">It minimizes the feeling of oiliness and focuses on providing moisture. 
+                        It contains 'red bean', known to help absorb sebum due to its abundance of saponins, and 'peptides', known to help improve wrinkles.
+                        As a light gel formula, it absorbs into the skin with a delicately fresh feeling.</p>
+                </div>
+                <div class="description3">
+                    <p class="third-title">Key ingredients</p>
+                    <p class="fourth-title">Haenam red bean extract 44%</p>
+                    <p class="third-description">
+                        Red bean has played an important role throughout Korean history. It was used as a medicine for its 
+                        important role in the discharge of wastes and used as an ingredient in traditional food as well. 
+                        Also, as recorded in ancient documents, women in the<br>Joseon Dynasty used it with mung bean to wash their 
+                        faces. Red beans help with the absorption of sebum, and the saponin in red bean peel helps skin health 
+                        and elasticity.
+                    </p>
+                    <p class="fourth-title2">Peptide complex</p>
+                    <p class="third-description2">
+                        It contains 3 types of peptides (SH-Oligopeptide-1 / SH-Oligopeptide-2 / SH-Polypeptide-1) to aid with 
+                        skin health by helping to maintain the proper amount of growth factors, which naturally decrease due to aging.
+                        Take an amount about the<br>size of a coin, apply it to the skin, and dab it until properly absorbed.
+                        It is especially ideal for oily skin with excessive sebum.
+                    </p>
+                </div>
+                <div class="ing-list">
+                    <p class="fifth-title">Full Ingredients</p>
+                    <p class="fullIngredient">Phaseolus angularis seed extract (441,000 ppm), water, butylene glycol, glycerin, 
+                        1,2-hexanediol, methyl trimethicone, acrylates/c10-30 alkyl acrylate crosspolymer, tromethamine, 
+                        glyceryl glucoside, c12-14 alketh-12, maltodextrin,
+                        panthenol, allantoin, dioscorea japonica root extract, glucose, sodium citrate, 
+                        beta-glucan, hydrolyzed corn starch, citric acid, sucrose, caprylyl glycol, helianthus annuus (sunflower) 
+                        seed oil, tocopherol, glycine, serine, glutamic acid, magnesium ascorbyl phosphate, 
+                        aspartic acid, leucine, alanine, lysine, arginine, tyrosine, phenylalanine, 
+                        proline, threonine, valine, isoleucine, histidine, cysteine, methionine, sh-oligopeptide-1, 
+                        sh-oligopeptide-2, sh-polypeptide-1</p>
+                </div>
+                <div class="using">
+                    <p class="sixth-title">How To Use
+                    <p>
+                    <p class="how-to-use">Apply proper amount of this cream on your face at the last stage of your skincare routine. 
+                        Pat with your fingers to aid absorption.</p>
+                    </p>
+                </div>
+                <div class="question">
+                    <p class="seventh-title">FAQ
+                    <p>
+                    <p class="answer">Q/ What skin types can use it?<br>
+                        A/ Suitable for all skin types. In particular, it is designed for concerns with active sebum secretion.<br><br>
+                        
+                        Q/ Can I use it both day and night?<br>
+                        A/ Yes, you can.<br><br>
+                        
+                        Q/ Can pregnant women use it?<br>
+                        A/ Pregnant women can use this product, but there are large hormonal changes during pregnancy, 
+                        so be sure to consult your doctor before selecting a product.</p>
+                    </p>
+                </div>
+                <div class="links">
+                    <a href="#" class="shipping">Shipping</a>
+                    <a href="#" class="return">Return&Refund</a>
+                    <a href="#" class="pay">Payment</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <span class="reviews pt-5">Reviews</span>
+    <span class="fa fa-star checked rvw"></span>
+    <span class="fa fa-star checked rvw"></span>
+    <span class="fa fa-star checked rvw"></span>
+    <span class="fa fa-star checked rvw"></span>
+    <span class="fa fa-star checked rvw"></span>
+    <p class="rating">Based on 35 reviews.</p>
+    <div class="row2">
+        <div class="side1">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+        </div>
+        <div class="middle">
+            <div class="bar-container">
+                <div class="bar-5"></div>
+            </div>
+        </div>
+        <div class="side right">
+            <div>94%　(33)</div>
+        </div>
+        <div class="side2">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+        </div>
+        <div class="middle">
+            <div class="bar-container">
+                <div class="bar-4"></div>
+            </div>
+        </div>
+        <div class="side right">
+            <div>0% 　 (0)</div>
+        </div>
+        <div class="side3">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+        </div>
+        <div class="middle">
+            <div class="bar-container">
+                <div class="bar-3"></div>
+            </div>
+        </div>
+        <div class="side right">
+            <div>6% 　 (2)</div>
+        </div>
+        <div class="side4">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+        </div>
+        <div class="middle">
+            <div class="bar-container">
+                <div class="bar-2"></div>
+            </div>
+        </div>
+        <div class="side right">
+            <div>0% 　 (0)</div>
+        </div>
+        <div class="side5">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+        </div>
+        <div class="middle">
+            <div class="bar-container">
+                <div class="bar-1"></div>
+            </div>
+        </div>
+        <div class="side right">
+            <div>0% 　 (0)</div>
+        </div>
+    </div>
+    <button class="write">Write a review</button>
+    <div class="testimonial">
+        <img src="https://xsgames.co/randomusers/assets/avatars/female/33.jpg" alt="Avatar" style="width:70px">
+        <p><span>Delia Beck</span>17/10/2022</p>
+        <div class="first-review">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+        </div>
+        <b>Divine</b>
+        <p class="review-desc">
+            I have seen a significant improvement of my skin texture and I’ve only used the products for 3 weeks.
+            Thank you!</p>
+      </div>
+      
+      <div class="testimonial1">
+        <img src="https://xsgames.co/randomusers/assets/avatars/female/60.jpg" alt="Avatar" style="width:70px">
+        <p><span>Lucia Bailey</span>08/10/2022</p>
+        <div class="first-review">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+        </div>
+        <b>I like it</b>
+        <p class="review-desc">Its super hydrating but the only issue i faced is that the hydration is not long lasting, my skin dries fast.
+            It also has tromethamine which can cause severe irritation for some people, so it's better if you consult with a dermatologist first.
+        </p>
+      </div>
+      <div class="testimonial1">
+        <img src="https://xsgames.co/randomusers/assets/avatars/female/35.jpg" alt="Avatar" style="width:70px">
+        <p><span>Stella Vasquez</span>04/10/2022</p>
+        <div class="first-review">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+        </div>
+        <b>Perfect perfect perfect</b>
+        <p class="review-desc">I’ve been buying multiple different products to hydrate my skin for a while now, 
+            however not one of the products would work. Until I came across the Beauty Joseon Red Bean Water Gel. 
+            This cream is very light on the skin and scent free. It has hydrated my skin. ( looks shinny 🤗)
+            This cream is not the only product I’ve been using. I’ve also been using their Ginseng Essence Water, 
+            Triple Hanbang Solution(serums),Radiance Cleansing Balm, & their Relief Sun: Rice+Probiotics set. 
+            By the way I am from the U.S and all my packages arrived in good conditions. One package arrived two days 
+            later after the first ones had arrived, but other than that my experience with Beauty Of Joseon was awesome.</p>
+      </div>
+      <h2 class="suggestion">YOU MAY ALSO LIKE</h2>
+      <div class="serum1">
+        <img src="https://cdn.shopify.com/s/files/1/0558/4135/7989/products/0O8A9851_1000x.jpg?v=1667177845" class="first1">
+        <div class="overlay">  
+        <img src="https://cdn.shopify.com/s/files/1/0558/4135/7989/products/0O8A9978_1000x.jpg?v=1667177845" class="second1">
+        <div class="prod-price">
+          <div class="name0">Red Bean Refreshing Pore Mask</div>
+          <div class="price0">$20.00</div>
+        </div>
+      </div>
+      </div> 
+      <div class="toner2">
+        <img src="https://cdn.shopify.com/s/files/1/0558/4135/7989/products/0O8A9465_1000x.jpg?v=1653271744" class="first2">
+        <div class="overlay2">  
+        <img src="https://cdn.shopify.com/s/files/1/0558/4135/7989/products/0O8A9544_1000x.jpg?v=1653271744" class="second2">
+        <div class="prod-price2">
+          <div class="name2">Dynasty Cream</div>
+          <div class="price2"> $24.00</div>
+        </div>
+      </div>
+      </div>  
+      <div class="serum3">
+        <img src="https://cdn.shopify.com/s/files/1/0558/4135/7989/products/0O8A9443_1000x.jpg?v=1653272019" class="first3">
+        <div class="overlay3">  
+        <img src="https://cdn.shopify.com/s/files/1/0558/4135/7989/products/0O8A9656_1000x.jpg?v=1653272019" class="second3">
+        <div class="prod-price3">
+          <div class="name3">Revive Serum :<br>Ginseng + Snail Mucin</div>
+          <div class="price3"> $17.00</div>
+        </div>
+      </div>
+      </div> 
+      <div class="cleanser4">
+        <img src="http://cdn.shopify.com/s/files/1/0558/4135/7989/products/0O8A0421_3f52ec2e-c404-46ae-a2f9-8888fd2c41da.jpg?v=1661730638" class="first4">
+        <div class="overlay4">  
+        <img src="https://cdn.shopify.com/s/files/1/0558/4135/7989/products/0O8A0761_1_ca0c3738-4d95-49a1-b3e7-98842807d8cf_1000x.jpg?v=1661730754" class="second4">
+        <div class="prod-price4">
+          <div class="name4">Green Plum Refreshing<br>Toner : AHA + BHA</div>
+          <div class="price4"> $18.00</div>
+        </div>
+      </div>
+      </div>
+    <div class="footer">
+      <div class="container-fluid">     
+          <div class="row">          
+            <div class="first col-sm-4 ps-3 pt-4">
+              <h2 class="comp-name">BEAUTY OF JOSEON</h2>
+            </div>             
+              <div class="second col-sm-4">
+                  <div class="single-footer">
+                      <p class="loc">GOODAI GLOBAL INC.<br>
+                        JUHYCK CHEUN<br><br>
+                      Suite #502, 5, Digital-ro 26-gil, Guro-gu, Seoul,<br> Republic of Korea<br><br>
+                      cs@beautyofjoseon.com</p>
+                  </div>
+              </div>
+              <div class="third col-sm-4">
+                  <div class="single-footer single-footer-address">
+                      <ul>
+                          <li><a href="#">Contact</a></li>
+                          <li><a href="#">Terms and Conditions</a></li>
+                          <li><a href="#">Shipping</a></li>
+                          <li><a href="#">Return & Refund</a></li>
+                          <li><a href="#">Payment</a></li>
+                          <li><a href="#">Privacy Policy</a></li>
+                          <li><a href="#">FAQ</a></li>
+                          <li><a href="#">Terms of Service</a></li>
+                          <li><a href="#">Refund Policy</a></li>
+                      </ul>
+                  </div>
+              </div>    
+          </div>
+       </div>   
+  </div>
+  <p class="credit">© 2022, Beauty of Joseon.</p>
+  <script src="redGel.js"></script>
+</body>
+</html>
